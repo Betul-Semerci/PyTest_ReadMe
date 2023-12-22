@@ -1,11 +1,10 @@
 # PyTest
-##PyTest and Decorators
 
 • PyTest bir Python test çerçevesidir ve test fonksiyonlarını ve modüllerini yönetmek için bir dizi özellik ve decorator sağlar. 
 
 • İşte pytest kullanırken sıkça kullanılan bazı decorator'ler:
 
-##@pytest.mark.parametrize
+#@pytest.mark.parametrize
 
 • Parametreli testler, geliştiricinin aynı testi farklı değerler üzerinde tekrar tekrar çalıştırmasına olanak tanır.
 
