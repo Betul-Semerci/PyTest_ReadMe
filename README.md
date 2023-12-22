@@ -12,12 +12,12 @@ Parametreli test, veriye dayalı test yapmak istediğimiz zamandır.  <br/>
 
 Bu, daha fazla test kodu eklemenize gerek kalmadan kapsamı artırmanıza olanak tanır.  
 
-<import pytest
+import pytest
 
 @pytest.mark.parametrize("input, expected", [(1, 2), (2, 3), (3, 4)])  <br/>
 def test_increment(input, expected):
     result = input + 1
-    assert result == expected>
+    assert result == expected
 
 **@pytest.mark.skip ve @pytest.mark.skipif**
 
